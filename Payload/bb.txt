@@ -1,0 +1,558 @@
+PS C:\Users\HP\Desktop\browserC\Browser> npm start
+
+> codex-electron-browser@1.0.0 start
+> electron .
+
+
+[Codex] App ready
+[Codex] Creating main window
+[TabManager] Created tab 1
+[TabManager] Activated tab 1
+[TabManager] Top offset updated 99
+[TabManager] Top offset updated 673
+[TabManager] Navigating tab 1 http://localhost:3000/
+[TabManager] Top offset updated 99
+[TabManager] Recorded history http://localhost:3000/
+[external-message] raw text from webpage: {
+  "printer_name": [
+    "192.168.1.77"
+  ],
+  "item_length": "26",
+  "template": "2",
+  "data": [
+    {
+      "type": "logo",
+      "data": {
+        "url": "https://pos.tradywork.com/images/22bef43a88f72e2a0e57992865302ba4.png"
+      }
+    },
+    {
+      "type": "summary",
+      "data": {
+        "summary": [
+          {
+            "key": "Subtotal",
+            "value": 91.95
+          }
+        ]
+      }
+    },
+    {
+      "type": "header",
+      "data": {
+        "top_title": "",
+        "sub_titles": [
+          "Title 1",
+          "Title 2"
+        ],
+        "address": [
+          "#122 downtown"
+        ],
+        "bill_no": "13355",
+        "ticket_no": "10",
+        "date_of_bill": "3/3/2022",
+        "prepration_date": "",
+        "time": "11:32 AM",
+        "print": "",
+        "table": "",
+        "online_order_id": "",
+        "employee": "User 1",
+        "till": "Terminal 2",
+        "order_type": "Dine In",
+        "customer_name": "",
+        "customer_phone": "",
+        "customer_address": [
+          "hahaha"
+        ],
+        "customer_remarks": [
+          "hahaha"
+        ],
+        "split_bill_string": "",
+        "headercomments": [
+          "hahaha"
+        ]
+      }
+    },
+    {
+      "type": "separator",
+      "data": {
+        "separator_length": ""
+      }
+    },
+    {
+      "type": "item",
+      "data": {
+        "itemdata": [
+          {
+            "order_invoice_id": 13309,
+            "item_amount": 46.98,
+            "item_name": "Orchard Special 3 pizza 1",
+            "item_subLine": "",
+            "toppings_with_price": [
+              "hahaha"
+            ],
+            "toppings": [
+              "Sugar",
+              "Extra salt",
+              "Cheese"
+            ],
+            "quantity": 1,
+            "selected": false,
+            "price": 44.99,
+            "custpmer_remarks": "",
+            "printer_name": "",
+            "printer_label": "",
+            "station": "",
+            "food_stampable": "",
+            "items": [
+              {
+                "order_invoice_id": "",
+                "item_amount": 0,
+                "item_name": "Garlic Bread 1 ",
+                "item_subLine": "",
+                "toppings_with_price": [
+                  "hahaha"
+                ],
+                "toppings": [
+                  "fg"
+                ],
+                "quantity": 0,
+                "selected": false,
+                "price": 0,
+                "custpmer_remarks": "",
+                "printer_name": "",
+                "printer_label": "",
+                "station": "",
+                "food_stampable": "",
+                "items": [
+                  "we"
+                ],
+                "print_description": "",
+                "deleted": false,
+                "exists": false,
+                "display_index": 0,
+                "is_printed": false,
+                "made_to": false,
+                "menu_group": [
+                  "hahaha"
+                ],
+                "kitchen_print": false
+              }
+            ],
+            "print_description": "",
+            "deleted": false,
+            "exists": false,
+            "display_index": 0,
+            "is_printed": false,
+            "made_to": false,
+            "menu_group": "Combo~10",
+            "kitchen_print": false
+          },
+          {
+            "order_invoice_id": 13309,
+            "item_amount": 46.98,
+            "item_name": "French fire",
+            "item_subLine": "",
+            "toppings_with_price": [
+              "hahaha"
+            ],
+            "toppings": [],
+            "quantity": 1,
+            "selected": false,
+            "price": 44.99,
+            "custpmer_remarks": "",
+            "printer_name": "",
+            "printer_label": "",
+            "station": "",
+            "food_stampable": "",
+            "items": [
+              {
+                "order_invoice_id": "",
+                "item_amount": 0,
+                "item_name": "Render mest",
+                "item_subLine": "",
+                "toppings_with_price": [
+                  "hahaha"
+                ],
+                "toppings": [
+                  "Salt",
+                  "Extra sauce",
+                  "Chilli"
+                ],
+                "quantity": 0,
+                "selected": false,
+                "price": 0,
+                "custpmer_remarks": "",
+                "printer_name": "",
+                "printer_label": "",
+                "station": "",
+                "food_stampable": "",
+                "items": [
+                  "we"
+                ],
+                "print_description": "",
+                "deleted": false,
+                "exists": false,
+                "display_index": 0,
+                "is_printed": false,
+                "made_to": false,
+                "menu_group": [
+                  "hahaha"
+                ],
+                "kitchen_print": false
+              }
+            ],
+            "print_description": "",
+            "deleted": false,
+            "exists": false,
+            "display_index": 0,
+            "is_printed": false,
+            "made_to": false,
+            "menu_group": "Combo~10",
+            "kitchen_print": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "separator",
+      "data": {
+        "separator_length": ""
+      }
+    },
+    {
+      "type": "bigsummary",
+      "data": {
+        "bigsummary": [
+          {
+            "key": "Subtotal",
+            "value": 91.95
+          },
+          {
+            "key": "Total",
+            "value": 43.96
+          },
+          {
+            "key": "PaidAmount",
+            "value": 43.96
+          },
+          {
+            "key": "TaxTotal",
+            "value": 5.73
+          }
+        ]
+      }
+    },
+    {
+      "type": "separator",
+      "data": {
+        "separator_length": ""
+      }
+    },
+    {
+      "type": "item",
+      "data": {
+        "itemdata": [
+          {
+            "order_invoice_id": 13309,
+            "item_amount": 46.98,
+            "item_name": "Orchard Special 3 pizza",
+            "item_subLine": "",
+            "toppings_with_price": [
+              "hahaha"
+            ],
+            "toppings": [
+              "Sugar",
+              "Extra salt",
+              "Cheese"
+            ],
+            "quantity": 1,
+            "selected": false,
+            "price": 44.99,
+            "custpmer_remarks": "",
+            "printer_name": "",
+            "printer_label": "",
+            "station": "",
+            "food_stampable": "",
+            "items": [
+              {
+                "order_invoice_id": "",
+                "item_amount": 0,
+                "item_name": "Garlic Bread 1 ",
+                "item_subLine": "",
+                "toppings_with_price": [
+                  "hahaha"
+                ],
+                "toppings": [
+                  "fg"
+                ],
+                "quantity": 0,
+                "selected": false,
+                "price": 0,
+                "custpmer_remarks": "",
+                "printer_name": "",
+                "printer_label": "",
+                "station": "",
+                "food_stampable": "",
+                "items": [
+                  "we"
+                ],
+                "print_description": "",
+                "deleted": false,
+                "exists": false,
+                "display_index": 0,
+                "is_printed": false,
+                "made_to": false,
+                "menu_group": [
+                  "hahaha"
+                ],
+                "kitchen_print": false
+              }
+            ],
+            "print_description": "",
+            "deleted": false,
+            "exists": false,
+            "display_index": 0,
+            "is_printed": false,
+            "made_to": false,
+            "menu_group": "Combo~10",
+            "kitchen_print": false
+          },
+          {
+            "order_invoice_id": 13309,
+            "item_amount": 46.98,
+            "item_name": "French fire",
+            "item_subLine": "",
+            "toppings_with_price": [
+              "hahaha"
+            ],
+            "toppings": [],
+            "quantity": 1,
+            "selected": false,
+            "price": 44.99,
+            "custpmer_remarks": "",
+            "printer_name": "",
+            "printer_label": "",
+            "station": "",
+            "food_stampable": "",
+            "items": [
+              {
+                "order_invoice_id": "",
+                "item_amount": 0,
+                "item_name": "Render mest",
+                "item_subLine": "",
+                "toppings_with_price": [
+                  "hahaha"
+                ],
+                "toppings": [
+                  "Salt",
+                  "Extra sauce",
+                  "Chilli"
+                ],
+                "quantity": 0,
+                "selected": false,
+                "price": 0,
+                "custpmer_remarks": "",
+                "printer_name": "",
+                "printer_label": "",
+                "station": "",
+                "food_stampable": "",
+                "items": [
+                  "we"
+                ],
+                "print_description": "",
+                "deleted": false,
+                "exists": false,
+                "display_index": 0,
+                "is_printed": false,
+                "made_to": false,
+                "menu_group": [
+                  "hahaha"
+                ],
+                "kitchen_print": false
+              }
+            ],
+            "print_description": "",
+            "deleted": false,
+            "exists": false,
+            "display_index": 0,
+            "is_printed": false,
+            "made_to": false,
+            "menu_group": "Combo~10",
+            "kitchen_print": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "setting",
+      "data": {
+        "printer_name": [
+          "EPSON TM-T81 Receipt"
+        ],
+        "print_type": "",
+        "item_length": 30,
+        "print_logo": false,
+        "thankyou_note": "",
+        "thankyou_note2": "",
+        "printer_type": "POS"
+      }
+    },
+    {
+      "type": "separator",
+      "data": {
+        "separator_length": ""
+      }
+    },
+    {
+      "type": "columndetails",
+      "data": {
+        "columnheader": {
+          "column1": "Tax",
+          "column2": "Over",
+          "column3": "",
+          "column4": "tax"
+        },
+        "columndata": [
+          {
+            "column1": "0%",
+            "column2": "0,00",
+            "column3": "",
+            "column4": "0,00"
+          },
+          {
+            "column1": "9%",
+            "column2": "10,00",
+            "column3": "",
+            "column4": "0,83"
+          },
+          {
+            "column1": "21%",
+            "column2": "0,00",
+            "column3": "",
+            "column4": "0,00"
+          },
+          {
+            "column1": "Total",
+            "column2": "10,00",
+            "column3": "",
+            "column4": "0,83"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Receipt",
+      "data": {
+        "align": "center",
+        "receipt_text": [
+          "hahaha"
+        ]
+      }
+    },
+    {
+      "type": "separator",
+      "data": {
+        "separator_length": ""
+      }
+    },
+    {
+      "type": "footer",
+      "data": {
+        "align": "center",
+        "footer_text": [
+          "Hotsport development agency",
+          "350012, near dinning hall",
+          "Bookdev",
+          "Gujrat",
+          "BTN - 85823648",
+          "petorlrec@12gmail.com"
+        ]
+      }
+    }
+  ]
+}
+[external-message] parsed JSON object: {
+  printer_name: [ '192.168.1.77' ],
+  item_length: '26',
+  template: '2',
+  data: [
+    { type: 'logo', data: [Object] },
+    { type: 'summary', data: [Object] },
+    { type: 'header', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'item', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'bigsummary', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'item', data: [Object] },
+    { type: 'setting', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+  ]
+}
+[external-message] invalid JSON: Error: Message missing "type"
+    at handleExternalMessage (C:\Users\HP\Desktop\browserC\Browser\src\main\messageHandler.js:17:11)
+    at C:\Users\HP\Desktop\browserC\Browser\src\main\main.js:355:22
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+  ]
+}
+[external-message] invalid JSON: Error: Message missing "type"
+    at handleExternalMessage (C:\Users\HP\Desktop\browserC\Browser\src\main\messageHandler.js:17:11)
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+  ]
+}
+[external-message] invalid JSON: Error: Message missing "type"
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+  ]
+}
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+  ]
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'columndetails', data: [Object] },
+    { type: 'Receipt', data: [Object] },
+    { type: 'separator', data: [Object] },
+    { type: 'footer', data: [Object] }
+  ]
+}
+[external-message] invalid JSON: Error: Message missing "type"
+    at handleExternalMessage (C:\Users\HP\Desktop\browserC\Browser\src\main\messageHandler.js:17:11)
+    at C:\Users\HP\Desktop\browserC\Browser\src\main\main.js:355:22
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78397)
+    at WebContents.emit (node:events:514:28)
+
